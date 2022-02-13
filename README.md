@@ -1,5 +1,5 @@
 # DFT-Adsorption-energy-calculation
-# HAZMAT-D-22-00524, Remove of Cd(Ⅱ) from aqueous solutions by carbonate-loaded biochar: Insight into the Olation reaction-driven coagulation and adsorption
+# HAZMAT-D-22-00524, Remove of Cd(Ⅱ) from aqueous solutions
 # https://materialsproject.org/materials/mp-625548/ ##Modeling information reference##
 # ##READ##
   The Perdew-Burke-Ernzerhof (PBE) functional in generalized gradient approximation (GGA) exchange correlation functionals was used in the geometry optimization and single point energy calculations. 
