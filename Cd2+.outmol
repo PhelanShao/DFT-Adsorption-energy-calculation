@@ -1,0 +1,352 @@
+ 
+     ===============================================================
+     Materials Studio DMol^3 version 2017            
+     compiled on May 19 2016 09:59:33
+     ===============================================================
+ 
+     ===============================================================
+     Density Functional Theory Electronic Structure Program
+     Copyright (c) 2016, Dassault Systemes, all rights reserved.
+     Cite work using this program as: 
+     B. Delley, J. Chem. Phys. 92,  508  (1990).
+     B. Delley, J. Chem. Phys. 113, 7756 (2000).
+     DMol^3 is available as part of Materials Studio.
+     ===============================================================
+ 
+ 
+DATE:     Nov 30 20:12:47 2021
+ 
+Job started on host DESKTOP-IALE258
+
+This run uses    4 processors
+
+Message: License checkout of MS_dmol successful
+ 
+Basis set is read from file:
+E:\Program Files (x86)\BIOVIA\Materials Studio 17.1 x64 Server\share\Resources\Quantum\DMol3\BASFILE_v3.5
+
+ 
+ parallel run with   4 processors
+ 
+ no INCOOR file: try ZMAT
+ no ZMAT file: try CAR
+
+Geometry is read from file: Autosave_of_3D_Atomistic.car                                                                                                                                                                                                                                    
+
+INCOOR, atomic coordinates in au (for archive):
+______________________________________________________________________>8
+
+$coordinates
+Cd            0.00000000000000    0.00000000000000    0.00000000000000
+$end
+______________________________________________________________________>8
+
+
+N_atoms =    1     N_atom_types =  1
+
+
+INPUT_DMOL keywords (for archive):
+______________________________________________________________________>8
+
+#Warning: no global confinement specs in BASFILE
+                                                                                                                                    <--
+# Task parameters                                                                                                                   <--
+Calculate                     energy                                                                                                <--
+Symmetry                      off                                                                                                   <--
+Max_memory                    12048                                                                                                 <--
+File_usage                    smart                                                                                                 <--
+Scf_density_convergence       1.000000e-005                                                                                         <--
+Scf_charge_mixing             1.000000e-001                                                                                         <--
+Scf_spin_mixing               1.000000e-001                                                                                         <--
+Scf_diis                      6 pulay                                                                                               <--
+Scf_iterations                50                                                                                                    <--
+                                                                                                                                    <--
+# Electronic parameters                                                                                                             <--
+Spin_polarization             unrestricted                                                                                          <--
+Charge                        2                                                                                                     <--
+Basis                         dnp                                                                                                   <--
+Pseudopotential               dspp                                                                                                  <--
+Functional                    pbe                                                                                                   <--
+Aux_density                   hexadecapole                                                                                          <--
+Dftd                          G06                                                                                                   <--
+DFTD_params                   custom 0.7500 20.0000                                                                                 <--
+                                                                                                                                    <--
+Integration_grid              fine                                                                                                  <--
+Occupation                    thermal 0.0050                                                                                        <--
+Cutoff_Global                 4.0000 angstrom                                                                                       <--
+Cosmo                         ibs                                                                                                   <--
+COSMO_Dielectric              78.5400     Water                                                                                     <--
+                                                                                                                                    <--
+# Print options                                                                                                                     <--
+Print                         eigval_last_it                                                                                        <--
+                                                                                                                                    <--
+# Calculated properties                                                                                                             <--
+Plot                          density                                                                                               <--
+Plot                          deformation                                                                                           <--
+Plot                          spindensity                                                                                           <--
+Grid                          msbox  3 0.2500 0.2500 0.2500 3.0000                                                                  <--
+______________________________________________________________________>8
+
+
+Publications of specific relevance to this calculation:
+
+Density functional:
+ PBE functional: Perdew Burke Ernzerhof: Phys. Rev. Lett. 77, 3865 (1996)
+
+ 
+ +---------------------------------------------------+
+ |                                                   |
+ |  Using DFT-SEDC - the DFT Semi-Empirical          |
+ |  Dispersion interaction Correction module         |
+ |  Copyright (c) 2008 Erik McNellis and Joerg Meyer |
+ |  Fritz-Haber-Institut der MPG. Distributed under  |
+ |  the GNU Lesser General Public License (LGPL).    |
+ |                                                   |
+ | Please cite the following publication in all      |
+ | work arising from your use of DMol3 SEDC:         |
+ |                                                   |
+ | Erik R. McNellis, Joerg Meyer, and Karsten Reuter |
+ | Phys. Rev. B 80, 205414 (2009)                    |
+ |                                                   |
+ +---------------------------------------------------+
+ 
+Spin unrestricted calculation
+
+
+ Hardness conserving semilocal pseudopotentials; Delley: Phys. Rev. B 66, 155125 (2002)
+
+ Fractional occupations and density functional energies and forces; Weinert Davenport: Phys. Rev. B 45, 13709 (1992)
+
+Fractional occupations, iterative stability:
+ Delley in; Modern Density Functional Theory vol 2 pg 221 ff (1995),
+  Elsevier, Seminario Politzer eds.
+
+The conductor-like screening model for polymers and surfaces
+ Delley: Molecular Simulation 32, 117-123 (2006)
+
+Parallel eigenvalue solution:
+Parallel solution of partial symmetric eigenvalue problems from electronic structure calculations:
+Auckenthaler, Blum, Bungartz, et al.: Parallel Computing 37, 783 (2011)
+
+ 
+Calculation is Spin_unrestricted
+ 
+ 
+Warning: no SYM file, no symmetry used in vibrational analysis
+Warning: at least C1 SYM file should be there for optgeom
+Cadmium      nbas=  1, z=  48, nrfn=  6, rcut=  7.56, e_ref= -0.012711 Ha
+  DSPP: PWC_PBE s 01d21 release   rcore=  2.50  zval=  12.00  48.00
+   n=4  L=2  occ=10.00 e=      -0.410034Ha       -11.1576eV
+   n=5  L=0  occ= 2.00 e=      -0.185987Ha        -5.0610eV
+   n=4  L=2  occ= 0.00 e=      -1.115752Ha       -30.3612eV
+   n=5  L=0  occ= 0.00 e=      -0.784061Ha       -21.3354eV
+   n=5  L=1  occ= 0.00 e=      -0.529707Ha       -14.4141eV
+   n=5  L=2  occ= 0.00 e=      -0.200740Ha        -5.4624eV  eliminated
+
+Note: calculation of reference xc derivative is turned on
+ for pseudopotential with core density correction
+ 
+Warning: cosmo-radius for Cd has not been validated yet, r=    2.30 Angs
+
+  Dielectric Constant                       =  78.54
+  Number of Segments on an Atom    =    110
+  Number of Segments on Hydrogen   =     50
+
+  Solvent Radius    [Angs]         =   1.30
+  IBS-SAS alf                      =  50.00
+  newcos variable                  =    108
+  cosmo_noutly on                  :     32
+  cosmo_qzero  on                  :     64
+
+ cosmo IBS grid
+
+Symmetry orbitals C1                            
+    n  norb    representation
+    1    15        a    
+  total number of valence orbitals:     15
+
+
+ molecule charge=      2.0   active electron number=      10.0
+ (without charge=             12.0)
+ electron temperature=     0.005_Ha      0.14_eV     1579._K
+ 
+
+ electrostatics has max memory requirements                    2.5 MB  ( recipr:     0.0 MB)
+
+ real array elements, matrices vectors etc:       0.8 MB 
+ integer arrays                           :       0.0 MB 
+ min recommended for all-incl workspace   :       1.4 MB 
+Total memory allocated for arrays         :       2.5 MB 
+Memory for temporary file storage on disk :       0.9 MB
+Total memory allocated                    :       3.4 MB
+Max memory requested                      :   12048.0 MB
+Warning: taking last occupied orbital of first atom to start spin density!
+Default spin density on atom Cd(  1), L= 0 was used on start: M_s=  1.0
+Warning: start spin density on closed shell atom Cd(   1), L= 0 M_s=  1.0
+ 
+ 
+Parameters for customized dispersion correction : G06   
+ Global scheme parameters: 
+       s6 :     0.750000
+        d :    20.000000
+ 
+ cubic simple grid used for COSMO
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef          -89.399588Ha         0.3899568Ha      1.51E-01     0.0m      1
+Ef          -89.358523Ha         0.4310220Ha      1.37E-01     0.0m      2
+Ef          -89.273792Ha         0.5157524Ha      8.64E-02     0.0m      3
+Ef          -89.266939Ha         0.5226057Ha      7.83E-02     0.0m      4
+Ef          -89.263879Ha         0.5256655Ha      4.74E-02     0.0m      5
+Ef          -89.268745Ha         0.5207994Ha      4.75E-02     0.0m      6
+Ef          -89.272464Ha         0.5170804Ha      4.87E-02     0.0m      7
+Ef          -89.269694Ha         0.5198513Ha      3.32E-02     0.0m      8
+Ef          -89.268285Ha         0.5212599Ha      2.96E-02     0.0m      9
+Ef          -89.263008Ha         0.5265365Ha      2.69E-02     0.0m     10
+Ef          -89.263081Ha         0.5264638Ha      2.42E-02     0.0m     11
+Ef          -89.263220Ha         0.5263250Ha      2.18E-02     0.0m     12
+Ef          -89.264161Ha         0.5253843Ha      1.97E-02     0.0m     13
+Ef          -89.265005Ha         0.5245400Ha      1.80E-02     0.0m     14
+Ef          -89.273680Ha         0.5158649Ha      1.68E-02     0.0m     15
+Ef          -89.266060Ha         0.5234845Ha      1.52E-02     0.0m     16
+Ef          -89.261274Ha         0.5282708Ha      1.41E-02     0.0m     17
+Ef          -89.261270Ha         0.5282749Ha      1.32E-02     0.0m     18
+Ef          -89.266537Ha         0.5230074Ha      1.25E-02     0.0m     19
+Ef          -89.266494Ha         0.5230510Ha      1.13E-02     0.0m     20
+Ef          -89.273607Ha         0.5159378Ha      1.06E-02     0.0m     21
+Ef          -89.272713Ha         0.5168314Ha      8.64E-03     0.0m     22
+Ef          -89.271617Ha         0.5179280Ha      8.70E-03     0.0m     23
+Ef          -89.274235Ha         0.5153099Ha      1.19E-02     0.0m     24
+Ef          -89.272965Ha         0.5165795Ha      9.32E-03     0.0m     25
+Ef          -89.274112Ha         0.5154327Ha      8.74E-03     0.0m     26
+Ef          -89.274468Ha         0.5150766Ha      7.42E-03     0.0m     27
+Ef          -89.272670Ha         0.5168746Ha      1.06E-02     0.0m     28
+Ef          -89.272718Ha         0.5168264Ha      8.64E-03     0.0m     29
+Ef          -89.272939Ha         0.5166059Ha      8.12E-03     0.0m     30
+Ef          -89.274095Ha         0.5154494Ha      4.95E-03     0.0m     31
+Ef          -89.273379Ha         0.5161662Ha      1.83E-03     0.0m     32
+Ef          -89.272674Ha         0.5168705Ha      8.70E-04     0.0m     33
+Ef          -89.274335Ha         0.5152095Ha      6.36E-03     0.0m     34
+Ef          -89.274003Ha         0.5155419Ha      1.46E-03     0.0m     35
+Ef          -89.273880Ha         0.5156649Ha      8.88E-04     0.0m     36
+Ef          -89.274033Ha         0.5155115Ha      8.73E-04     0.0m     37
+Ef          -89.273759Ha         0.5157859Ha      5.15E-04     0.0m     38
+Ef          -89.273431Ha         0.5161135Ha      4.58E-04     0.0m     39
+Ef          -89.274158Ha         0.5153868Ha      1.38E-03     0.0m     40
+Ef          -89.274188Ha         0.5153571Ha      1.59E-03     0.0m     41
+Ef          -89.273606Ha         0.5159386Ha      6.54E-04     0.0m     42
+Ef          -89.273385Ha         0.5161595Ha      3.18E-04     0.0m     43
+Ef          -89.273375Ha         0.5161703Ha      3.83E-04     0.0m     44
+Ef          -89.273311Ha         0.5162341Ha      1.68E-04     0.0m     45
+Ef          -89.273310Ha         0.5162347Ha      1.83E-04     0.0m     46
+Ef          -89.273310Ha         0.5162348Ha      2.63E-04     0.0m     47
+Ef          -89.273301Ha         0.5162434Ha      6.59E-05     0.0m     48
+Ef          -89.273299Ha         0.5162462Ha      2.16E-05     0.0m     49
+Ef          -89.273299Ha         0.5162453Ha      7.06E-06     0.0m     50
+Message: SCF converged
+
+Smearing energy  -kTS_e= -0.000000Ha
+
+
+Energy of Highest Occupied Molecular Orbital:  -0.66476Ha   -18.089eV
+Energy of Lowest Unoccupied Molecular Orbital:  -0.33481Ha    -9.111eV
+
+  HOMO is orbital number    10
+  LUMO is orbital number    11
+
+    state                         eigenvalue        occupation
+                              (au)          (ev)
+
+    1   +   1   a         -0.664774       -18.089     1.000
+    2   +   2   a         -0.664774       -18.089     1.000
+    3   +   3   a         -0.664770       -18.089     1.000
+    4   +   4   a         -0.664770       -18.089     1.000
+    5   +   5   a         -0.664770       -18.089     1.000
+    6   -   1   a         -0.664765       -18.089     1.000
+    7   -   2   a         -0.664765       -18.089     1.000
+    8   -   3   a         -0.664761       -18.089     1.000
+    9   -   4   a         -0.664761       -18.089     1.000
+   10   -   5   a         -0.664761       -18.089     1.000
+   11   +   6   a         -0.334807        -9.111     0.000
+   12   -   6   a         -0.334666        -9.107     0.000
+   13   +   7   a         -0.085424        -2.325     0.000
+   14   +   8   a         -0.085424        -2.325     0.000
+   15   +   9   a         -0.085424        -2.325     0.000
+   16   -   7   a         -0.085206        -2.319     0.000
+   17   -   8   a         -0.085206        -2.319     0.000
+   18   -   9   a         -0.085206        -2.319     0.000
+   19   +  10   a          0.259704         7.067     0.000
+   20   -  10   a          0.259896         7.072     0.000
+ 
+
+  Orbital occupation is:
+      5  a  ( 1) alpha and     5  a  ( 1) beta
+  Total number electrons:              10.0
+
+
+Energy components:
+   Sum of atomic energies =      -89.7895448Ha
+                  Kinetic =       -2.1753544Ha
+            Electrostatic =        2.8281354Ha
+     Exchange-correlation =       -0.1492470Ha
+        Spin polarization =        0.0127113Ha
+         DFT-D correction =        0.0000000Ha
+      =====================
+       Total DFT-D energy =      -89.2732995Ha
+Ef          -89.273299Ha         0.5162454Ha      7.93E-06     0.0m     51
+
+df  binding energy       0.5162454Ha          14.04776eV         323.955kcal/mol
+
+Df  binding energy extrapolated to T=0K       0.5162454 Ha        14.04776 eV
+ Diel. energy   -0.451505   -0.451505
+
+
+
+=============================================================================
+
+   DMol3/COSMO Results 
+
+
+
+ cosmo energy                [Hartree atomic units]       [eV]     [kcal/mol]
+  Total energy                  =        -89.273299
+  Total energy + OC corr.       =        -89.273299
+  Dielectric (solvation) energy =         -0.451505     -12.286     -283.33
+  Diel. energy + OC corr.       =         -0.451505     -12.286     -283.33
+
+  Surface area of cavity [au]   =           237.390
+  Total Volume of cavity [au]   =           343.929
+  Surface area of cavity [A**2] =         66.476101
+  Total Volume of cavity [A**3] =         50.965010
+
+
+ screening charge
+  cosmo            =   -1.96204
+
+
+  corrected total  =   -1.96204
+
+
+=============================================================================
+
+ +++ Entering Properties Section +++ 
+
+
+
+Plotting output:
+  property:                                                file name:
+  DMol3 total electron density                             Autosave_of_3D_Atomistic_densi
+  DMol3 deformation electron density                       Autosave_of_3D_Atomistic_defor
+  DMol3 spin density                                       Autosave_of_3D_Atomistic_spin_
+
+ grid specifications: I_dim, Origin, n_intervals to corner:
+    3   -5.6692   -5.6692   -5.6692   24   -5.6692   -5.6692    5.6692
+   24   -5.6692    5.6692   -5.6692   24    5.6692   -5.6692   -5.6692
+ 
+Message: License checkin of MS_dmol successful
+
+Message: DMol3 job finished successfully
+
+ time all done       0.01m        0.78s
+
+DMol3.pl message: DMol3 job finished in 0 hr 2 min 5 sec.
